@@ -1,0 +1,52 @@
+<mxfile host="app.diagrams.net" modified="2023-11-19T11:54:31.789Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="rUHIWtGUAVIBvGwzQtRU" version="22.1.3" type="device">
+  <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
+    <mxGraphModel dx="2670" dy="1103" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="G0vRJmeLDJw2WF4knWea-0" value="MainWindow" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="220" y="20" width="140" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="G0vRJmeLDJw2WF4knWea-1" value="main:QApplication&lt;br&gt;seawin:Searchengine" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="G0vRJmeLDJw2WF4knWea-0" vertex="1">
+          <mxGeometry y="30" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="G0vRJmeLDJw2WF4knWea-4" value="Document" style="swimlane;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="380" y="100" width="200" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="G0vRJmeLDJw2WF4knWea-5" value="Title:String&lt;br&gt;content:String&lt;br&gt;seaalgLSearchalgorithm&lt;br&gt;numofview:int&lt;br&gt;tail:Node&lt;br&gt;head:Node&lt;br&gt;Document(string,vector)&lt;br&gt;Document()&lt;br&gt;extractFileName()&lt;br&gt;check_word_present()&lt;br&gt;search_in_line()&lt;br&gt;line_insertion()&lt;br&gt;counter_oneFile()&lt;br&gt;delete_list()&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="G0vRJmeLDJw2WF4knWea-4" vertex="1">
+          <mxGeometry x="15" y="120" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="G0vRJmeLDJw2WF4knWea-6" value="Searchalgorithms" style="swimlane;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="70" y="160" width="200" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="G0vRJmeLDJw2WF4knWea-7" value="&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;/div&gt;TFIDF_funct:void&lt;br&gt;Rankpage_func:void&lt;br&gt;ExactSearch:void&lt;br&gt;Substringsearch:void&lt;br&gt;counter_allFiles:void&lt;br&gt;checkwordpresent&lt;br&gt;sortfilenames:void&lt;br&gt;TF:double&lt;br&gt;IDF:double&lt;br&gt;searchTrie::void&lt;br&gt;&lt;br&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="G0vRJmeLDJw2WF4knWea-6" vertex="1">
+          <mxGeometry x="70" y="40" width="60" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="G0vRJmeLDJw2WF4knWea-8" value="Searchwindow" style="swimlane;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="390" y="410" width="200" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="G0vRJmeLDJw2WF4knWea-10" value="Document:array&lt;br&gt;&lt;br&gt;seaalg:Searchalgorithms" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="G0vRJmeLDJw2WF4knWea-8" vertex="1">
+          <mxGeometry x="20" y="30" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ozi2SNw2_h6WaYXCSf-P-1" value="serchEngine" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="100" y="430" width="200" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="ozi2SNw2_h6WaYXCSf-P-5" value="prog:searchalgorithms&lt;br&gt;root:TNode&lt;br&gt;set:Settings&lt;br&gt;documentMap:HAshpmap&lt;br&gt;loaded:bool&lt;br&gt;car:Settings&lt;br&gt;searchEngine():void&lt;br&gt;addDocument():void&lt;br&gt;loadDocuments():void&lt;br&gt;loadTrie():void&lt;br&gt;searchDocument():void&lt;br&gt;searchwordinaFile():void&lt;br&gt;searchwordinallFiles():void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="ozi2SNw2_h6WaYXCSf-P-1">
+          <mxGeometry y="26" width="200" height="204" as="geometry" />
+        </mxCell>
+        <mxCell id="ozi2SNw2_h6WaYXCSf-P-6" value="Seetings" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="420" y="540" width="140" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="ozi2SNw2_h6WaYXCSf-P-7" value="addhistory():void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="ozi2SNw2_h6WaYXCSf-P-6">
+          <mxGeometry y="26" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ozi2SNw2_h6WaYXCSf-P-8" value="display():void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="ozi2SNw2_h6WaYXCSf-P-6">
+          <mxGeometry y="52" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ozi2SNw2_h6WaYXCSf-P-9" value="errorhandling():void&lt;br&gt;getinstance():Setings" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="ozi2SNw2_h6WaYXCSf-P-6">
+          <mxGeometry y="78" width="140" height="62" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
